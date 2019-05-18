@@ -14,7 +14,10 @@
 </head>
 
 <body>
-    
+
+    <div class = "topBackground">
+    </div>
+
     <div class = "dimensions">
         
         <div class = "topbox">
@@ -22,95 +25,79 @@
             <div class="box1">
                 <strong>
                     <h1 class = "name">
-                        Eli Daniels
+                        Elias Daniel
                     </h1>
                 </strong>
             </div>
 
             <div class = "menu">
-
                 <ul>
-
                     <li><a href="https://edaniels2275.github.io/" target="blank">About</a></li>
                     <li> | </li>
                     <li><a href="https://edaniels2275.github.io/portfolio.html" target="blank">Portfolio</a></li>
                     <li> | </li>
                     <li><a href="https://edaniels2275.github.io/contact.html" target="blank">Contact</a></li>
-    
-
-                </ul>
-                
+                </ul>         
             </div>
 
         </div>
 
         
-        <div class = formBox>
+        <div class = "formBox">
 
-            <div class = "box3">
-
+            <div class = "headerBox">
                 <h1 class = "headerColor">
                     <strong>
                         Contact
                     </strong>
                 </h1>
-
             </div>
 
-            <hr color="gray">
+            <hr>
 
             <br>
             <br>
 
-            <!-- make sure that ACTION 
-            here resets the page and clears
-            all inputs after submit has been hit -->
+            <form action = "mailto:edaniels2275@gmail.com" method = "post"
+             enctype="text/plain" id = theForm>
 
-            <form action = "/action_page.php" id = theForm>
+            Name: 
+            <br>
+            <br>
+            <textarea name="name" cols="100"></textarea>
+            <br>
+            <br>
+            <br>
 
-                Name: 
-                <br>
-                <br>
-                <textarea name="name" cols="100">Satoshi Nakomoto</textarea>
-                <!-- <input type="name" name="Satoshi Nakomoto" cols = 15> -->
-                <br>
-                <br>
-                <br>
+            Email:
+            <br>
+            <br>
+            <textarea name="text" cols="100"></textarea>
+            <br>
+            <br>
+            <br>
 
-                Email:
-                <br>
-                <br>
-                <textarea name="text" cols="100">hello@gmail.com</textarea>
-                <!-- <input type="text" name="example@gmail.com"> -->
-                <br>
-                <br>
-                <br>
+            Message:
+            <br>
+            <br>
+            <textarea name="message" cols="100" rows="10">
+            </textarea>
+            <br>
+            <br>
+            <br>
 
-                Message:
-                <br>
-                <br>
-                <!-- <input type="text" name="Founded in 1882"> -->
-                <textarea name="message" cols="100" rows="10">Hi Eli, I hope you are having a good day! Etc etc etc.
-                </textarea>
-                <br>
-                <br>
-                <br>
-
-                <br>
-
-                <input type = "submit" value = "Submit">
+            <input type = "submit" class = "form-submit-button" value = "Submit">
 
             </form>
                     
         </div>
 
-
-    <div id = "box2">
     </div>
 
-        
+</body>
 
-    </div>
+<footer>
+    Elias Daniel, 2019
+</footer>
 
-    </body>
 </html>
