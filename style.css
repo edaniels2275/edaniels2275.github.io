@@ -12,6 +12,16 @@ html {
      font-family: 'Muli', sans-serif;
  }
 
+ .topBackground{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 150px;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 40;
+    text-align: center;
+}
 
 .dimensions {
     margin-left: auto;
@@ -81,17 +91,6 @@ h1.name {
 
 h1.headerColor{
     -webkit-text-fill-color: steelblue;
-}
-
-.topBackground{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    height: 150px;
-    width: 100%;
-    background-color: whitesmoke;
-    z-index: 40;
-    text-align: center;
 }
 
 .headerBox {
