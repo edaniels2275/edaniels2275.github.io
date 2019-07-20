@@ -2,11 +2,6 @@
     box-sizing: border-box;
   }
 
-html {
-    background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/website-background-template-4.jpg) no-repeat center fixed;
-    background-size: cover;
-}
-
  body {
      z-index: 30; 
      font-family: 'Muli', sans-serif;
@@ -71,6 +66,10 @@ a:link, a:visited {
     display: inline-block;
 }
 
+a{
+    border-radius: 15px;
+}
+
 a:hover, a:active {
     background-color: rgb(207, 179, 179);
 }
@@ -80,13 +79,13 @@ a:hover, a:active {
     width: 280px;
     position: absolute;
     margin-top: 40px;
-    background-color: steelblue;
+    background-color: whitesmoke;
     z-index: 50;
     padding-left: 55px;
 }
 
 h1.name {
-    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-fill-color: steelblue;
 }
 
 h1.headerColor{
