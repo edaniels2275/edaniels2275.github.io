@@ -95,7 +95,7 @@ h1.headerColor{
 .headerBox {
     top: 200px;
     height: 70px;
-    width: 250px;
+    width: 800px;
     background-color:whitesmoke;
     text-align: left;
     z-index: 50;
@@ -153,7 +153,7 @@ p.lineHeight {
 .projectBox {
     padding: 25px 55px 25px 55px;
     top: 190px;
-    height: 930px;
+    height: 1050px;
     width: 960px;
     position: absolute;
     background-color:whitesmoke;
