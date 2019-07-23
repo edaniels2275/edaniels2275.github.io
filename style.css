@@ -18,6 +18,16 @@
     text-align: center;
 }
 
+#contentColumn {
+    padding:80px;
+}
+
+#project, #info{
+    margin-left: 30px;
+}
+#jumbo{
+    -webkit-text-fill-color: steelblue;
+}
 .dimensions {
     margin-left: auto;
     margin-right: auto;
@@ -25,37 +35,6 @@
     width: 960px;
     background-color: transparent;
     z-index: -100;
-}
-
-.topbox {
-    background-color: transparent;
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    height: 142px;
-}
-
-.menu {
-    right: 125px; 
-    height: 102px;
-    width: 400px;
-    margin-top: 40px;
-    position: absolute;
-    background-color:whitesmoke;
-    text-align: center;
-    z-index: 50;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-  
-li {
-    display: inline;
-    text-align: left;
 }
 
 a:link, a:visited {
@@ -72,16 +51,6 @@ a{
 
 a:hover, a:active {
     background-color: rgb(207, 179, 179);
-}
-  
-.box1 {
-    height: 102px;
-    width: 280px;
-    position: absolute;
-    margin-top: 40px;
-    background-color: whitesmoke;
-    z-index: 50;
-    padding-left: 55px;
 }
 
 h1.name {
@@ -112,13 +81,6 @@ hr {
     background-color: gray;
 } 
 
-img {
-    width: 20%;
-    float: left; 
-    padding-right: 25px;
-    z-index: 500;
-}
-
 p {
     text-align: left;
     z-index: 500;
@@ -128,54 +90,11 @@ p.lineHeight {
     line-height: 1.5;
 }
 
-.contentBox {
-    padding: 25px 55px 25px 55px;
-    top: 190px;
-    height: 600px;
-    width: 960px;
-    position: absolute;
-    background-color:whitesmoke;
-    text-align: center;
-    z-index: 20;
-}
-
-.formBox {
-    padding: 25px 55px 25px 55px;
-    top: 190px;
-    height: 770px;
-    width: 960px;
-    position: absolute;
-    background-color:whitesmoke;
-    text-align: center;
-    z-index: 20;
-}
-
-.projectBox {
-    padding: 25px 55px 25px 55px;
-    top: 190px;
-    height: 1050px;
-    width: 960px;
-    position: absolute;
-    background-color:whitesmoke;
-    text-align: center;
-    z-index: 20;
-}
-
-#theForm {
-    text-align: left
-}
-
-.form-submit-button {
-    background-color:steelblue;
-    color:whitesmoke;
-    font-family: 'Muli', sans-serif;
-}
-
 div.gallery {
     margin: 30px;
     border: 1px solid #ccc;
     float: left;
-    width: 350px;
+    width: 400px;
 }
 
 div.gallery img {
